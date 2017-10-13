@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC419561-775E-2DF9-7218-0445468A7666}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.5.4f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_4;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\RexEngine\Scripts\Demo\AbilityToggleButton.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Blueprint.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Booster.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\BoosterMario.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\BreakBottomBlock.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\ClickthroughButton.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\DataManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\DemoEnemy.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_10_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_12_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_15_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_2_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_3_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_5_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_6_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Demo_9_LevelScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\DialoguePopup.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\Door.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\EndingScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\GameOverScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\GravityChanger.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\NewAbilityButton.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\Demo\TitleScript.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_AI\EnemyAI.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_AI\RexAI.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\Attack.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\ChargeProjectile.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\Projectile.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\RexActor.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\RexController.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\RexObject.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Abstracts\RexPhysics.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\Checkpoint.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\Enemy.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\EnergyPowerup.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\Ladder.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\MovingPlatform.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\Powerup.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\ScorePowerup.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Actors\Water.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Camera\RexCamera.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Components\ContactDamage.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Components\DropSpawner.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Components\Energy.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Components\Jitter.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Components\Reflector.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Components\RexParticle.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Editor\RexMenu.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Enums\BattleEnums.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Enums\Direction.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\CameraHelper.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\FPSDisplay.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\FlagHelper.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\GlobalValues.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\ParentHelper.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\RaycastHelper.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Helpers\RexMath.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\IInputManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\ITouchInputManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\InputAction.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\InputManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\RexInput.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\RexTouchInput.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\RexTouchInputManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Input\UnityInputManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\DamageNumberManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\DialogueManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\GameManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\HitSparkManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\LevelManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\LivesManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\PauseManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\PhysicsManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\ReadyMessage.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\RexSceneManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\RexSoundManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\ScoreManager.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\ScreenFade.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\ScreenFlash.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Managers\ScreenShake.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Pooling\RexPool.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Scene\PlayerSpawnPoint.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Scene\SceneBoundary.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Scene\SceneLoader.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_Scene\Setup.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\BounceState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\CrouchState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\DashState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\JumpState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\KnockbackState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\LadderState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\LandingState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\MovingState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\RexState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_States\WallClingState.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_UI\DamageNumber.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_UI\EnergyBar.cs" />
+    <Compile Include="Assets\RexEngine\Scripts\RexEngine\_UI\RexUIAnchor.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
